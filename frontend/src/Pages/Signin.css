@@ -1,0 +1,130 @@
+.signin-container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #ECF0F1; 
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #2980B9; 
+}
+
+a:hover {
+  color: #1A5276; 
+}
+
+.signin-card {
+  font-family: sans-serif;
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 38px;
+  margin-bottom: 38px;
+  border-radius: 10px !important;
+  background-color: #FFFFFF;
+  box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  padding: 30px;
+}
+
+.error-message {
+  color: red; 
+  font-weight: bold;
+}
+
+.signin-title {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  color: #2C3E50; 
+}
+
+.signup-option {
+  background-color: rgba(41, 128, 185, 0.2); 
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.line {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 2px solid #ECF0F1; 
+  line-height: 2px;
+  margin: 25px 0;
+  color: #34495E; 
+}
+
+.persontype-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #2C3E50; 
+}
+
+.signin-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.signin-fields label {
+  color: #AAAAAA; 
+  text-align: left;
+  margin-top: 25px;
+}
+
+.signin-textbox {
+  padding: 15px 20px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+  color: #34495E; 
+}
+
+.signin-button {
+  background-color: #2980B9; 
+  color: white;
+  padding: 18px 20px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signin-button:hover {
+  background-color: #1A5276; 
+}
+
+.forget-pass {
+  text-align: center;
+  display: block;
+  color: #2980B9; 
+}
+
+.forget-pass:hover {
+  color: #1A5276; 
+}
+
+.signup-question {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px !important;
+  padding: 15px;
+  color: #2C3E50; 
+}

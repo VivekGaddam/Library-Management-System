@@ -1,0 +1,40 @@
+* {
+    margin-bottom: 0px !important;
+}
+
+.welcome-box {
+    width: 100%;
+    height: auto;
+    background-color: #ECF0F1; 
+    text-align: center;
+}
+
+.welcome-title {
+    font-size: 40px;
+    font-weight: 900;
+    padding: 15px;
+    color: #2C3E50; 
+    text-shadow: 
+        1px 1px 0 #2980B9,  
+        2px 2px 0 #34495E,  
+        3px 3px 0 #2C3E50,  
+        4px 4px 0 #1A5276;
+}
+
+.welcome-message {
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.welcome-submessage {
+    font-size: 15px;
+    font-weight: 600;
+}
+.welcome-title {
+    font-size: 40px;
+    font-weight: 900;
+    padding: 15px;
+    color: #2C3E50;
+    text-shadow: 2px 2px 4px rgba(52, 73, 94, 0.5); 
+}
